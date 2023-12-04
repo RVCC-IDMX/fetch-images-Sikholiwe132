@@ -40,9 +40,9 @@ searchForm.addEventListener("submit", (e) => {
     e.preventDefault();
     page = 1;
     serachImages();
-})
+});
 
 showMoreBtn.addEventListener("click", () => {
     page++;
     searchImages();
-})
+});
